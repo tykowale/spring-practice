@@ -9,7 +9,6 @@ import java.util.List;
 /**
  * Created by tylerkowalewski on 10/25/15.
  */
-@Repository("customerRepository")
 public class HibernateCustomerRepositoryImpl implements CustomerRepository{
     public List<Customer> findAll() {
         List<Customer> customers = new ArrayList<>();
