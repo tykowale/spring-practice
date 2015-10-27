@@ -10,8 +10,10 @@ import java.util.List;
 /**
  * Created by tylerkowalewski on 10/25/15.
  */
+@Service("customerService")
 public class CustomerServiceImpl implements CustomerService{
 
+    @Autowired
     private CustomerRepository customerRepository;
 
     public CustomerServiceImpl() {
